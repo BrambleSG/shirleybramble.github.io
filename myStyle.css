@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-items: flex-end;
+  align-items: center;
+}
+.container div {
+  border: 12px#ccc solid;
+  padding: 15px;
+  text-align: center;
+  background-color: gainsboro;
+}
+h1 {
+  color: black;
+  font-family: Cambria;
+  text-transform: capitalize;
+}
+h2 {
+  font-family: "Courier New", Courier, monospace;
+  text-shadow: 2px 2px gray;
+  text-decoration: underline;
+}
+h3 {
+  font-family: "Courier New", Courier, monospace;
+  text-decoration: underline;
+}
+ul {
+  list-style-type: lower-alpha;
+}
+.box1 {
+  flex: 1;
+}
+.box2 {
+  flex: 1;
+}
+.box3 {
+  flex: 1;
+}
+
+.container2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-items: flex-end;
+  border: 12px#ccc solid;
+  padding: 15px;
+  background-color: gainsboro;
+}
+.content {
+  font-family: "Courier New", Courier, monospace;
+}
+ul {
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
